@@ -64,7 +64,7 @@
         function scrollTo(){
             canScroll = false;
             $('html,body').stop(true,true);
-            var index = $(this).data('scrollnum');
+            index = $(this).data('scrollnum');
             animateTo(index);
         }
         function animateTo(index){
