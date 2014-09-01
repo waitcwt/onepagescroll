@@ -18,7 +18,7 @@
         anchorLi:'li',
         tolerantHeight:300,
         positionHeight:0,
-        fullScreen:false //如果是page就是滚动一屏
+        shape:false //如果是true就是滚动一屏
     };
   function Plugin($container,options){
         var setting = $.extend({},settings,options),
